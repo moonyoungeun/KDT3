@@ -8,12 +8,29 @@
 
 
     <style>
-         #span1{background-color:palegoldenrod;padding: 20px;
-            width:50vw; height: 50vw;text-align: center}
-         #span2{background-color: paleturquoise;padding: 20px;
-            width:50vw; height: 50vw;text-align: center}
-         #line2{background-color: white;padding: 20px;
-            width: 30px; height: 30px;}
+         #span1{background-color: palegoldenrod;padding: 20px 42px;text-align: center;}
+
+         #span2{background-color: paleturquoise;padding: 20px 42px; text-align: center;}
+
+         #line2{display:inline-block; background-color: white;
+            width:400px;}
+
+         .line2-1{ background-color: red;padding: 20px;
+            width:50px; height: 50px; margin: 30px;}
+
+         #span3{background-color: pink;padding: 20px 45px;}
+
+         #span4{background-color: peachpuff;padding: 20px 45px;}
+
+         .span5{display: inline-block; background-color: pink; width: 20px;height: 22px; padding:20px 40px 20px;text-align: center;}
+
+         .span6{display: inline-block; background-color: peachpuff; width: 20px;height: 22px;padding:20px 40px 20px;text-align: center;}
+
+         #posco{ display: inline; padding: 21px 21.7px;text-align: center; background-color: blueviolet;}
+         #posco::after{content:"포스코";}
+
+         
+      
 
 
 
@@ -28,16 +45,25 @@
 
 <body>
 <span>
-    <span id="span1">Monday</span><span id="span2">Tuesday</span><span id="span1">Wednesday</span><span id="span2">Thursday</span><span id="span1">Friday</span><span id="span2">Saturday</span><span id="span1">Sunday</span>
+   <div class="span5">월</div><div class="span6">화</div><div class="span5">수</div><div class="span6">목</div><div class="span5">금</div><div class="span6">토</div><div class="span5">일</div>
     <br/>
-    <span id="line2">1</div>
-    <span id="line2">2</div>
-    <span id="line2">3</div>
-    <span id="line2">4</div>
-    <span id="line2">포스코</span>
-    
+    <div id="line2"></div><span id="posco">1</span><div class="span6">2</div><div class="span5">3</div>
 
-</span>
+<div>
+   <div class="span5">4</div><div class="span6">5</div><div class="span5">6</div><div class="span6">7</div><div class="span5">8</div><div class="span6">9</div><div class="span5">10</div>
+   <br>
+   <div class="span5">11</div><div class="span6">12</div><div class="span5">13</div><div class="span6">14</div><div class="span5">15</div><div class="span6">16</div><div class="span5">17</div>
+   <br>
+   <div class="span5">18</div><div class="span6">19</div><div class="span5">20</div><div class="span6">21</div><div class="span5">22</div><div class="span6">23</div><div class="span5">24</div>
+   <br>
+   <div class="span5">25</div><div class="span6">26</div><div class="span5">27</div><div class="span6">28</div><div class="span5">29</div><div class="span6">30</div><div class="span5">31</div>
+   
+
+
+
+</div>
+
+
     
 </body>
 </html>
